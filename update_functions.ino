@@ -3,8 +3,8 @@
 #include <WiFiClientSecure.h>
 #include "cert.h"
 
-#define URL_fw_Version "https://raw.githubusercontent.com/IDronex3/drona-server-app/main/bin_version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/IDronex3/drona-server-app/main/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/IDronex3/drone-server-app/main/bin_version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/IDronex3/drone-server-app/main/fw.bin"
 
 void firmwareUpdate();
 int FirmwareVersionCheck();

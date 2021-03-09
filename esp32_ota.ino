@@ -4,7 +4,7 @@ const char * ssid = "Tekwill-kids";
 const char * password = "";
 
 String FirmwareVer = {
-  "4.1"
+  "1.0"
 };
 
 void connect_wifi();
